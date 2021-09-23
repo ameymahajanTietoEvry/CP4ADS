@@ -1,1 +1,8 @@
-{"weather":{"rain forecast\\t":87,"temperature":"hot","storm alert":false},"name":"Yuga"}
+{
+  "name": "Pooja",
+  "weather": {
+    "rain forecast\\t": 80,
+    "temperature": "hot",
+    "storm alert": true
+  }
+}
