@@ -1,1 +1,8 @@
-{"weather":{"rain forecast\\t":0,"temperature":"cold"},"name":"Richa"}
+{
+  "name": "AMEy",
+  "weather": {
+    "rain forecast": 90,
+    "storm alert": true,
+    "temperature": "hot"
+  }
+}
