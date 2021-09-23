@@ -4,7 +4,7 @@
   <uuid>be1eb754-c52e-441b-bab9-81fb8167fc86</uuid>
   <locale>en_US</locale>
   <definition><![CDATA[if
-	Input is defined 
+	Name is defined 
 then
-	set decision to "Hello  "+Input+" !!!" +  'Weather advice' ;]]></definition>
+	set decision to "Hello  "+Name+" !!!" +  'Weather advice' ;]]></definition>
 </ilog.rules.studio.model.brl:ActionRule>

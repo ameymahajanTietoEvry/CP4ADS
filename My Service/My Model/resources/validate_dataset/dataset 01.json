@@ -1,8 +1,1 @@
-{
-  "input": "Yuga",
-  "weather": {
-    "rain forecast\\t": 87,
-    "temperature": "hot",
-    "storm alert": false
-  }
-}
+{"weather":{"rain forecast\\t":87,"temperature":"hot","storm alert":false},"name":"Yuga"}

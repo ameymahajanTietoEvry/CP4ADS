@@ -1,7 +1,1 @@
-{
-  "input": "Richa",
-  "weather": {
-    "rain forecast\\t": 0,
-    "temperature": "cold"
-  }
-}
+{"weather":{"rain forecast\\t":0,"temperature":"cold"},"name":"Richa"}

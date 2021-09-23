@@ -5,7 +5,7 @@
   <decisionModel href="../rules/decisionModel.dmo#7feb6926-4d31-45f8-a14d-43dd14ca839e"/>
   <targetRuleProject href="../../My%20Model#c94bf75c-66ad-42ec-9a69-8f0c07f0f9a2"/>
   <tags key="operationDescription">
-    <value><![CDATA[""]]></value>
+    <value><![CDATA["Defined an operation to call the decision service.\n\n"]]></value>
   </tags>
   <tags key="operationName">
     <value><![CDATA["my-Model"]]></value>
