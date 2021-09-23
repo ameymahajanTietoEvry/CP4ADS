@@ -23,10 +23,6 @@ public class Weather
         property "com.fasterxml.jackson.annotation.JsonTypeName" "weather"
         property "de.generated" "true"
 {
-    public java.lang.Long rainForecast$t
-                property "ads.attributeId" "1"
-                property "com.fasterxml.jackson.annotation.JsonProperty" "rain forecast\\t"
-                property update "true";
     public boolean stormAlert
                 property "ads.attributeId" "3"
                 property "com.fasterxml.jackson.annotation.JsonProperty" "storm alert"
@@ -35,7 +31,7 @@ public class Weather
                 property "ads.attributeId" "2"
                 property "com.fasterxml.jackson.annotation.JsonProperty" "temperature"
                 property update "true";
-    public Weather(java.lang.Long rainForecast$t, boolean stormAlert, Temperature temperature)
+    public Weather(boolean stormAlert, Temperature temperature)
                 property autoExpand "true"
                 property beanConstructor "true"
                 property groups "BALA"

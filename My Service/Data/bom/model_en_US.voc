@@ -7,11 +7,7 @@ Temperature.warm#instance.label = warm
 
 # Weather
 Weather#concept.label = weather
-Weather.Weather(java.lang.Long,boolean,Temperature)#phrase.navigation = a new {weather} where {0, rain forecast} {1, storm alert} {2, temperature}
-Weather.rainForecast$t#phrase.action = set the rain forecast of {this} to {rain forecast	}
-Weather.rainForecast$t#phrase.addition_setter = add {rain forecast	} to the rain forecast of {this}
-Weather.rainForecast$t#phrase.navigation = {rain forecast	} of {this}
-Weather.rainForecast$t#phrase.subtraction_setter = subtract {rain forecast	} from the rain forecast of {this}
+Weather.Weather(boolean,Temperature)#phrase.navigation = a new {weather} where {0, storm alert} {1, temperature}
 Weather.stormAlert#phrase.action[0] = {this} gets storm alert only if {storm alert}
 Weather.stormAlert#phrase.action[1] = make it {storm alert} that {this} is storm alert
 Weather.stormAlert#phrase.action[1].deprecated = true
