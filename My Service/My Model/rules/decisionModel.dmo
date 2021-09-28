@@ -17,7 +17,7 @@
     </inputData>
     <decision id="node_1" name="Daily advice">
         <extensionElements>
-            <ruleset xmlns="http://www.ibm.com/spec/ODM/dmn.xsd" conflictResolution="sequence">
+            <ruleset xmlns="http://www.ibm.com/spec/ODM/dmn.xsd" conflictResolution="first">
                 <input bomType="java.lang.String" collection="false" name="Name"/>
                 <input bomType="java.lang.String" collection="false" name="Weather advice"/>
                 <output bomType="java.lang.String" collection="false" name="Daily advice"/>
