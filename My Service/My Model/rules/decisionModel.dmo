@@ -35,7 +35,7 @@
     </decision>
     <decision id="node_2" name="Weather advice">
         <extensionElements>
-            <ruleset xmlns="http://www.ibm.com/spec/ODM/dmn.xsd" conflictResolution="sequence">
+            <ruleset xmlns="http://www.ibm.com/spec/ODM/dmn.xsd" conflictResolution="first">
                 <input bomType="Weather" collection="false" name="Weather"/>
                 <output bomType="java.lang.String" collection="false" name="Weather advice"/>
                 <rule defaultRule="false" href="node_2/storm%20rule.drl" kind="BusinessRule" name="storm rule"/>

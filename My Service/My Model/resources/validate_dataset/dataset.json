@@ -1,8 +1,8 @@
 {
-  "name": "Dhruv",
+  "name": "Yadav",
   "weather": {
     "rain forecast": 90,
     "storm alert": true,
-    "temperature": "hot"
+    "temperature": "cold"
   }
 }
